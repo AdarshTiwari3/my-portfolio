@@ -17,7 +17,7 @@ export function Footer() {
     githubUrl: "https://github.com/AdarshTiwari3",
     linkedinUrl: "https://www.linkedin.com/in/adarsh-tiwari-b29209160/",
     copyright:
-      "© 2024 Adarsh Tiwari. Built with React, TypeScript, and Tailwind CSS.",
+      "© 2026 Adarsh Tiwari. Built with React, TypeScript, and Tailwind CSS.",
   };
 
   return (
@@ -28,9 +28,7 @@ export function Footer() {
             <h3 className="text-xl font-bold text-textHeading mb-2">
               {footer.name}
             </h3>
-            <p className="text-accent">
-              {footer.role}
-            </p>
+            <p className="text-accent">{footer.role}</p>
           </div>
 
           <div className="flex items-center gap-6">
